@@ -7,6 +7,10 @@ devices](https://www.arduino.cc/reference/en/language/functions/usb/mouse/).
 - There is about a 70% chance of a jiggle occurring within one minute.
 - If there is no jiggle within 5 minutes, it will force a jiggle.
 
+The "jiggle" is a very fast movement of 2 pixels and then back 2 pixels. This
+movement is enough to keep the computer from going idle while being completely
+unnoticable and will not impact regular usage of the mouse.
+
 ## Usage
 
 Copy the code from [tinyjiggle.ino](/tinyjiggle.ino), or clone the repo:
