@@ -1,17 +1,12 @@
 /*
-  TinyJiggle is a mouse jiggler that should work with any ATmega32U4 device.
+    TinyJiggle
+    Mouse jiggle to keep your computer from going idle.
 
-  This will move the mouse randomly, or if there hasn't been a movement within
-  5 minutes it will move the mouse.
+    Works with any ATmega32U4 or SAMD device.
 
-  The random chance is around 2% per second, which gives about a 69%-70% chance
-  of moving the mouse within a minute.
-
-  The mouse movement is very small. It will move 2 pixels left and then 2
-  pixels back and is not noticeable or disruptive.
-
-  Author: nronzel
-  Date: 06/2024
+    Author: nronzel
+    Date: 06/2024
+    https://github.com/nronzel/TinyJiggle
 */
 
 #include <Mouse.h>
