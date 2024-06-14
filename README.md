@@ -1,3 +1,5 @@
+# TinyJiggle
+
 ## Overview
 
 TinyJiggle is a simple mouse jiggler that will work with any [ATmega32U4 or SAMD
