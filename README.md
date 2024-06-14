@@ -6,6 +6,7 @@ devices](https://www.arduino.cc/reference/en/language/functions/usb/mouse/).
 - Every second there is a 2% chance the mouse will jiggle.
 - There is about a 70% chance of a jiggle occurring within one minute.
 - If there is no jiggle within 5 minutes, it will force a jiggle.
+- The built-in LED will flash when a jiggle is triggered.
 
 The "jiggle" is a very fast movement of 2 pixels and then back 2 pixels. This
 movement is enough to keep the computer from going idle while being completely
