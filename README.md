@@ -31,10 +31,10 @@ git clone https://github.com/nronzel/TinyJiggle.git
 - Connect to the device in the Arduino IDE
 - Ensure the Mouse library is installed
   - Tools > Manage Libraries
-  - Search for "Mouse" and install the library called "Mouse" by Arudino
+  - Search for "Mouse" and install the library called "Mouse" by Arduino
   - Install latest version
 - Open the sketch (or paste the code if you just copied it) and upload it to
   the device
 
 Once the sketch has been uploaded you can plug the device into whatever computer
-you'd like to use the jiggler on.
+you'd like to use the jiggler on and it should just work.
